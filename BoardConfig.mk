@@ -50,3 +50,6 @@ BOARD_DTBOIMG_PARTITION_SIZE := 2097152
 
 # SELinux
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
+
+# System props
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
